@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
@@ -31,7 +31,9 @@
 
 	body {
 		@apply bg-background text-foreground font-sans;
-		font-family: 'Inter', sans-serif;
+		font-family: 'Quicksand', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei UI', sans-serif;
+		font-weight: 400;
+		letter-spacing: 0.01em;
 	}
 
 	h1,
@@ -40,11 +42,18 @@
 	h4,
 	h5,
 	h6 {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Quicksand', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei UI', sans-serif;
+		font-weight: 600;
+		letter-spacing: 0.02em;
 	}
 
 	#logo {
 		font-family: 'Dancing Script', cursive;
+	}
+
+	.love-highlight {
+		color: #e86b8b; /* 柔和偏暖的粉色，不会太亮 */
+		font-weight: 600;
 	}
 }
 
@@ -63,5 +72,37 @@
 
 	.nav-link:hover::after {
 		@apply w-full;
+	}
+
+	/* 头像容器 */
+	.avatar-container {
+		@apply transition-transform duration-300 hover:scale-110;
+	}
+
+	/* 爱心跳动动画 */
+	.heart-beat {
+		display: inline-block;
+		animation: heartbeat 1.5s ease-in-out infinite;
+	}
+
+	@keyframes heartbeat {
+		0% {
+			transform: scale(1);
+		}
+		15% {
+			transform: scale(1.2);
+		}
+		30% {
+			transform: scale(1);
+		}
+		45% {
+			transform: scale(1.15);
+		}
+		60% {
+			transform: scale(1);
+		}
+		100% {
+			transform: scale(1);
+		}
 	}
 }

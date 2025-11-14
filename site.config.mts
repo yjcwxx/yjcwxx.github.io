@@ -8,20 +8,17 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	title: 'Y&W',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
-	profileImage: 'profile.webp',
+	owner: 'YJC & WXX',
+	profileImage: 'tmp.jpeg',
+	// 在一起的开始时间 (YYYY-MM-DD HH:mm:ss)
+	startDate: '2025-11-15 12:00:00',
 	socialLinks: [
 		{
 			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
+			url: 'https://github.com/hzyangjc',
 			icon: Github,
-		} as SocialLink,
-		{
-			name: 'Instagram',
-			url: 'https://www.instagram.com',
-			icon: Instagram,
 		} as SocialLink,
 	],
 };

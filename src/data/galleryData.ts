@@ -77,6 +77,10 @@ export interface ImageExif {
  */
 export interface Image {
 	src: ImageMetadata;
+	/**
+	 * 如果配置了 COS，则这里会保存远程图片 URL
+	 */
+	remoteSrc?: string;
 	title: string;
 	description: string;
 	collections: string[];

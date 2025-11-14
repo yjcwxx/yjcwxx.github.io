@@ -10,8 +10,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				playfair: ['Playfair Display', 'serif'],
+				sans: ['Quicksand', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei UI', 'sans-serif'],
+				display: ['Quicksand', 'PingFang SC', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

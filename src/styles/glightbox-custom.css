@@ -1,8 +1,9 @@
+.glightbox-container .gslide-media img,
 .glightbox-container .gslide-image img {
-	max-width: 95%;
-	max-height: 95%;
-	height: auto;
-	width: auto;
+	max-width: 95vw;
+	max-height: 95vh;
+	height: auto !important;
+	width: auto !important;
 	object-fit: contain;
 	display: block;
 }

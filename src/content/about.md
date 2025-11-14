@@ -2,13 +2,14 @@
 title: About me
 ---
 
-### Hi, I'm Sara Richard 👋
+### 认识三个月啦！
 
-I've been a photographer for over 10 years, focusing primarily on landscape and portrait photography. My journey began
-with a simple point-and-shoot camera while traveling through the mountains of Colorado, which sparked a passion that has
-taken me across the globe.
-My approach to photography centers on finding the extraordinary in ordinary moments. I believe that beauty exists
-everywhere – in urban streets, remote wilderness, and human connections. My goal is to capture these fleeting instances
-in a way that allows viewers to see the world through a different lens.
-When I'm not behind the camera, you can find me hiking in national parks, exploring new cities, or enjoying a cup of
-coffee at local cafés while planning my next photo adventure.
+九十多天，从怀疑到确信。五十六天后，一张京沪高铁的票成了答案——坐上车的那一刻，所有顾虑都留在了站台，只剩下跨越一千三百公里的笃定。车厢里的广播、窗外飞驰而过的城市、手机里反复确认的距离，都在提醒我：这一次，是为了<b class="love-highlight">「你」</b>在移动。回到上海，那些不确定的想象终于落地，变成了真实的呼吸与温度。
+
+没有人天生契合，但总有人愿意为彼此调整轨迹。作息也好，饮食习惯也罢，从聊天频率到周末的安排，我们一点点摸索出彼此都舒服的节奏。偶尔会磕磕绊绊，却也在一次次磨合里，学会更温柔地接住对方。
+
+电话、消息、见面——每一次联结都需要用心维系。白天各自忙碌，但还是会习惯性点开对话框，分享一两句日常的碎片：天气、工作、走路时看到的一朵云。许多事不尽如人意，但也正因如此，相聚时刻才显得格外珍贵。
+
+感谢相遇。未来或许还有更多难题，但有你在，便有继续的理由。也会忍不住去想，以后还会一起走过更多城市、更多季节、更多只有我们记得的日常片段，让那些起伏和不安，都有了可以依靠的地方。这样想想，前路就算曲折，也没有那么可怕。
+
+这三个月，既是开始，也是承诺。这个小站是给我们的礼物，放在公网的某个角落，无论何时何地，都能打开属于我们的记忆匣子。也许很多年以后再回来看，会发现那些被认真记录下来的瞬间，正悄悄拼成<b class="love-highlight">「我们」</b>这个故事的开头。

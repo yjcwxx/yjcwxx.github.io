@@ -21,11 +21,12 @@ export class ImageStoreError extends Error {
 /**
  * Import all images from /src directory
  */
-const imageModules = import.meta.glob('/src/**/*.{jpg,jpeg,png,gif}', {
+const imageModules = import.meta.glob('/src/**/*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', {
 	eager: true,
 });
 
 const defaultGalleryPath = 'src/gallery/gallery.yaml';
+const PUBLIC_COS_BASE_URL = import.meta.env.PUBLIC_COS_BASE_URL as string | undefined;
 
 export const featuredCollectionId = 'featured';
 const builtInCollections = [featuredCollectionId];
@@ -156,8 +157,18 @@ const createImageDataFor = (imagePath: string, img: GalleryImage): Image => {
 		throw new ImageStoreError(`Image not found: ${imagePath}`);
 	}
 
+	let remoteSrc: string | undefined;
+	if (PUBLIC_COS_BASE_URL) {
+		const base = PUBLIC_COS_BASE_URL.replace(/\/$/, '');
+		const relative = imagePath.split('/src/gallery/')[1];
+		if (relative) {
+			remoteSrc = `${base}/${relative}`;
+		}
+	}
+
 	return {
 		src: imageModule.default,
+		remoteSrc,
 		title: img.meta.title,
 		description: img.meta.description,
 		collections: img.meta.collections,

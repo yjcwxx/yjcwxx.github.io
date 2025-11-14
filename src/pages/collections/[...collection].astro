@@ -5,12 +5,13 @@ import { getCollections, getImages } from '../../data/imageStore';
 
 const allCollection = {
 	id: undefined,
-	name: 'All',
+	name: '全部',
 };
 const collections = [allCollection, ...(await getCollections())];
 const { collection } = Astro.params;
 const images = await getImages(collection ? { collection } : {});
 const base = import.meta.env.BASE_URL;
+const baseClean = base === '/' ? '' : base;
 
 export const getStaticPaths = async () => {
 	return [{ id: undefined }, ...(await getCollections())].map((collection) => {
@@ -25,15 +26,15 @@ export const getStaticPaths = async () => {
 	<section class="py-16 pt-24">
 		<div class="container-custom">
 			<div class="mb-16 text-center">
-				<h1 class="text-4xl md:text-5xl font-bold mb-4">Gallery</h1>
-				<p class="text-gray-600 max-w-xl mx-auto">Explore my collection of photographic works</p>
+				<h1 class="text-4xl md:text-5xl font-bold mb-4">Nostalgia Station</h1>
+				<p class="text-gray-600 max-w-xl mx-auto">不许忘记哦~</p>
 			</div>
 
 			<div class="flex justify-center mb-10">
 				<div class="flex flex-wrap gap-2 justify-center">
 					{
 						collections.map((collectionBtn) => (
-							<a href={`${base}/collections/${collectionBtn.id ? collectionBtn.id : ''}`}>
+							<a href={`${baseClean}/collections/${collectionBtn.id ? collectionBtn.id : ''}`}>
 								<div
 									class={`px-4 py-2 border ${
 										collectionBtn.id === collection

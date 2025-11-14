@@ -1,90 +1,134 @@
 collections:
-  - id: nature
-    name: Nature
-  - id: travel
-    name: Travel
-  - id: street
-    name: Street
+  - id: scenery
+    name: 风景不错
+  - id: us
+    name: 我们
+  - id: aesthetics
+    name: 审美小图片
+  - id: food
+    name: 吃点啥好
 images:
-  - path: nature/nature-2.jpg
+  - path: 20251113/1762342185904.JPEG
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
-    meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-5.jpg
-    meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
-    meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-8.jpg
-    meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
-        - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
-    meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
-      collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
-    meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
-      collections:
-        - featured
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
-    meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
-      collections:
-        - featured
-        - travel
-    exif: {}
-  - path: nature/nature-1.jpg
-    meta:
-      title: Nature 1
+      title: Photo 1
       description: ''
       collections:
-        - nature
+        - us
+    exif: {}
+  - path: 20251113/db076b81a5609b9dd32c9027ca61863a.JPG
+    meta:
+      title: Photo 2
+      description: ''
+      collections:
+        - us
+        - featured
+    exif: {}
+  - path: 20251113/IMG_5301.JPG
+    meta:
+      title: Photo 3
+      description: ''
+      collections:
+        - us
+        - aesthetics
+    exif: {}
+  - path: 20251113/IMG_5345.PNG
+    meta:
+      title: Photo 4
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_5411.jpg
+    meta:
+      title: Photo 5
+      description: ''
+      collections:
+        - scenery
+        - featured
+    exif: {}
+  - path: 20251113/IMG_5438.JPG
+    meta:
+      title: Photo 6
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_5478.JPG
+    meta:
+      title: Photo 7
+      description: ''
+      collections:
+        - food
+    exif: {}
+  - path: 20251113/IMG_8162.PNG
+    meta:
+      title: Photo 8
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8233.jpeg
+    meta:
+      title: Photo 9
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8273.jpeg
+    meta:
+      title: Photo 10
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8330.jpeg
+    meta:
+      title: Photo 11
+      description: ''
+      collections:
+        - us
+        - featured
+        - aesthetics
+    exif: {}
+  - path: 20251113/IMG_8331.jpeg
+    meta:
+      title: Photo 12
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8336.jpeg
+    meta:
+      title: Photo 13
+      description: ''
+      collections:
+        - aesthetics
+    exif: {}
+  - path: 20251113/IMG_8397.JPEG
+    meta:
+      title: Photo 14
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8420.PNG
+    meta:
+      title: Photo 15
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8423.PNG
+    meta:
+      title: Photo 16
+      description: ''
+      collections:
+        - us
+    exif: {}
+  - path: 20251113/IMG_8688.JPEG
+    meta:
+      title: Photo 17
+      description: ''
+      collections:
+        - food
     exif: {}
