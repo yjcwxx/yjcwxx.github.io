@@ -1,4 +1,3 @@
-// @ts-nocheck
 import 'dotenv/config';
 import COS from 'cos-nodejs-sdk-v5';
 import fg from 'fast-glob';
