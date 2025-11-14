@@ -14,8 +14,28 @@
 	justify-content: center;
 }
 
-.glightbox-container .gslide-description {
+.glightbox-container .gslide-description,
+.glightbox-container .gslide-description .gdesc-inner {
 	max-width: 90%;
-	color: #ccc;
-	font-size: 0.875rem;
+}
+
+.glightbox-container .gslide-title,
+.glightbox-container .gslide-desc {
+	color: #111 !important;
+	font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', serif !important;
+	font-size: 0.9rem;
+}
+
+@media (min-width: 640px) {
+	.glightbox-container .gslide-title,
+	.glightbox-container .gslide-desc {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.glightbox-container .gslide-title,
+	.glightbox-container .gslide-desc {
+		font-size: 1.05rem;
+	}
 }

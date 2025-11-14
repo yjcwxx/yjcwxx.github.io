@@ -18,7 +18,7 @@ images:
   - path: 20251113/db076b81a5609b9dd32c9027ca61863a.JPG
     meta:
       title: Photo 2
-      description: ''
+      description: '2025.11.5 奉贤龙湖天街 温暖你的猪'
       collections:
         - us
         - featured
@@ -41,7 +41,7 @@ images:
   - path: 20251113/IMG_5411.jpg
     meta:
       title: Photo 5
-      description: ''
+      description: '2025.11.7 日出 通宵后'
       collections:
         - scenery
         - featured
@@ -84,7 +84,7 @@ images:
   - path: 20251113/IMG_8330.jpeg
     meta:
       title: Photo 11
-      description: ''
+      description: 'sbs的桂花 一场风雨之后就落了'
       collections:
         - us
         - featured
